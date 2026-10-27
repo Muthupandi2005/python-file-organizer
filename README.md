@@ -34,7 +34,7 @@ python-file-organizer/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/python-file-organizer.git
+git clone https://github.com/Muthupandi2005/python-file-organizer.git
 cd python-file-organizer
 ```
 
@@ -45,7 +45,7 @@ cd python-file-organizer
 Pass the folder path as an argument:
 
 ```bash
-python file_organizer.py "C:\\Users\\YOUR_USERNAME\\Desktop\\FileOrganizer_Test"
+python file_organizer.py "C:\\Users\\Muthupandi2005\\Desktop\\FileOrganizer_Test"
 ```
 
 If no path is provided, the program asks for one:
@@ -59,19 +59,19 @@ python file_organizer.py
 After reviewing the preview, use `--apply` to move files. The program asks you to type `YES` before continuing:
 
 ```bash
-python file_organizer.py "C:\\Users\\YOUR_USERNAME\\Desktop\\FileOrganizer_Test" --apply
+python file_organizer.py "C:\\Users\\Muthupandi2005\\Desktop\\FileOrganizer_Test" --apply
 ```
 
 ### 3. Save a log
 
 ```bash
-python file_organizer.py "C:\\Users\\YOUR_USERNAME\\Desktop\\FileOrganizer_Test" --log
+python file_organizer.py "C:\\Muthupandi2005\\Desktop\\FileOrganizer_Test" --log
 ```
 
 The log is written to `file_organizer.log` in the selected folder. If using `--apply`, combine the options:
 
 ```bash
-python file_organizer.py "C:\\Users\\YOUR_USERNAME\\Desktop\\FileOrganizer_Test" --apply --log
+python file_organizer.py "C:\\Users\\Muthupandi2005\\Desktop\\FileOrganizer_Test" --apply --log
 ```
 
 ## Run Tests
